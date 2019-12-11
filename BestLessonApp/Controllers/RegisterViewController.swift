@@ -1,5 +1,5 @@
 //
-//  WelcomeViewController.swift
+//  RegisterViewController.swift
 //  BestLessonApp
 //
 //  Created by Sumer Abdulaal on 12/11/19.
@@ -8,17 +8,12 @@
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
+class RegisterViewController: UIViewController {
 
-    
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var registerButton: UIButton!
-    @IBOutlet weak var logIn: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-       // titleLabel.text = "Learning Beez"
+        // Do any additional setup after loading the view.
     }
     
 
