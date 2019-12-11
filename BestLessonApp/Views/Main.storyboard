@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zR0-FL-evc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome View Controller-->
+        <scene sceneID="lE9-Wg-rHl">
+            <objects>
+                <viewController id="zR0-FL-evc" customClass="WelcomeViewController" customModule="BestLessonApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Se-jI-ydP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learning  Beez" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sV7-ot-NEc">
+                                <rect key="frame" x="108" y="418" width="198" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="DBG-FW-fxk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="sV7-ot-NEc" firstAttribute="centerX" secondItem="3Se-jI-ydP" secondAttribute="centerX" id="4OC-7V-fSf"/>
+                            <constraint firstItem="sV7-ot-NEc" firstAttribute="centerY" secondItem="3Se-jI-ydP" secondAttribute="centerY" id="9Cm-Cj-2DP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5L8-jE-Rp6"/>
+                    </view>
+                    <connections>
+                        <outlet property="titleLabel" destination="sV7-ot-NEc" id="kkw-dx-8Qc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="upg-F0-yNR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-184" y="106"/>
+        </scene>
+    </scenes>
+</document>
