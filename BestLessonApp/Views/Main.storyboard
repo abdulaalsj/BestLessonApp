@@ -112,8 +112,8 @@
                                         <rect key="frame" x="8" y="0.0" width="358" height="109"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rsR-Uv-T5V">
-                                        <rect key="frame" x="89" y="23" width="179" height="34"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Hz-Ch-jGF">
+                                        <rect key="frame" x="98" y="29" width="179" height="41"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="textColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="24"/>
@@ -127,6 +127,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="aqE-K2-hVJ"/>
                     <connections>
+                        <outlet property="registerPasswordField" destination="GHA-0Q-pFO" id="DmD-2w-vZB"/>
                         <segue destination="vyA-Ng-PPJ" kind="show" id="bXM-Nw-bWh"/>
                     </connections>
                 </viewController>
@@ -173,17 +174,17 @@
                                 <rect key="frame" x="20" y="206" width="374" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bck-b5-fmR">
-                                        <rect key="frame" x="98" y="32" width="179" height="34"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TextField" translatesAutoresizingMaskIntoConstraints="NO" id="2EJ-ef-RqL">
+                                        <rect key="frame" x="16" y="8" width="358" height="109"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" placeholder="Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HE6-tY-N7Z">
+                                        <rect key="frame" x="116" y="29" width="179" height="41"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="textColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="24"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TextField" translatesAutoresizingMaskIntoConstraints="NO" id="2EJ-ef-RqL">
-                                        <rect key="frame" x="16" y="8" width="358" height="109"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                 </subviews>
                             </view>
                         </subviews>
@@ -192,6 +193,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="hfw-FV-cOZ"/>
                     <connections>
+                        <outlet property="logInPasswordField" destination="YLy-BT-7yQ" id="mpr-UQ-OBa"/>
                         <segue destination="vyA-Ng-PPJ" kind="show" id="wCA-wl-3W8"/>
                     </connections>
                 </viewController>
@@ -323,6 +325,6 @@
         <image name="TextField" width="298" height="93"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="bXM-Nw-bWh"/>
+        <segue reference="wCA-wl-3W8"/>
     </inferredMetricsTieBreakers>
 </document>

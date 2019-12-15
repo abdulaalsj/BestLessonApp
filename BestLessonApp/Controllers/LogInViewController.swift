@@ -9,11 +9,15 @@
 import UIKit
 
 class LogInViewController: UIViewController {
-
+    @IBOutlet weak var logInEmailField: UITextField!
+    @IBOutlet weak var logInPasswordField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+       // logInEmailField.placeholder = "Email"
     }
     
 
