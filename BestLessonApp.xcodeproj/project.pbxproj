@@ -14,6 +14,7 @@
 		775DB3C923A1727A002DA07B /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775DB3C823A1727A002DA07B /* OptionsViewController.swift */; };
 		775DB3CB23A173DF002DA07B /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775DB3CA23A173DF002DA07B /* PlayerViewController.swift */; };
 		775DB3CD23A17725002DA07B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775DB3CC23A17725002DA07B /* GameViewController.swift */; };
+		775DB3CF23A7EFE5002DA07B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775DB3CE23A7EFE5002DA07B /* Constants.swift */; };
 		77653E9623A035A500B79DA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77653E9523A035A500B79DA5 /* AppDelegate.swift */; };
 		77653E9823A035A500B79DA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77653E9723A035A500B79DA5 /* SceneDelegate.swift */; };
 		77653E9F23A035A600B79DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77653E9E23A035A600B79DA5 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		775DB3C823A1727A002DA07B /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		775DB3CA23A173DF002DA07B /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		775DB3CC23A17725002DA07B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		775DB3CE23A7EFE5002DA07B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		77653E9223A035A500B79DA5 /* BestLessonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestLessonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77653E9523A035A500B79DA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77653E9723A035A500B79DA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				77653E9E23A035A600B79DA5 /* Assets.xcassets */,
 				77653EA023A035A600B79DA5 /* LaunchScreen.storyboard */,
 				77653EA323A035A600B79DA5 /* Info.plist */,
+				775DB3CE23A7EFE5002DA07B /* Constants.swift */,
 			);
 			path = BestLessonApp;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				775DB3C923A1727A002DA07B /* OptionsViewController.swift in Sources */,
 				775DB3C723A16DB1002DA07B /* LogInViewController.swift in Sources */,
 				775DB3C523A16D71002DA07B /* RegisterViewController.swift in Sources */,
+				775DB3CF23A7EFE5002DA07B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

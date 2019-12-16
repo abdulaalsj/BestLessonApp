@@ -127,8 +127,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="aqE-K2-hVJ"/>
                     <connections>
+                        <outlet property="registerEmailField" destination="0Hz-Ch-jGF" id="vtY-Ra-HKi"/>
                         <outlet property="registerPasswordField" destination="GHA-0Q-pFO" id="DmD-2w-vZB"/>
-                        <segue destination="vyA-Ng-PPJ" kind="show" id="bXM-Nw-bWh"/>
+                        <segue destination="vyA-Ng-PPJ" kind="show" identifier="RegisterToOptions" id="bXM-Nw-bWh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iVx-ic-gTg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -193,8 +194,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="hfw-FV-cOZ"/>
                     <connections>
+                        <outlet property="logInEmailField" destination="HE6-tY-N7Z" id="22M-5k-3zn"/>
                         <outlet property="logInPasswordField" destination="YLy-BT-7yQ" id="mpr-UQ-OBa"/>
-                        <segue destination="vyA-Ng-PPJ" kind="show" id="wCA-wl-3W8"/>
+                        <segue destination="vyA-Ng-PPJ" kind="show" identifier="logInToOptions" id="wCA-wl-3W8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gv8-lQ-PzV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
