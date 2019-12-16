@@ -10,6 +10,8 @@ import Foundation
 
 struct K {
     
+    static let titleText = "🐝LearningBeez"
+    
     static let registerToOptionsIdentifier = "RegisterToOptions"
     
     static let logInToOptionsIdentifier = "logInToOptions"
