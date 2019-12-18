@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,7 @@
 		77653E9823A035A500B79DA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77653E9723A035A500B79DA5 /* SceneDelegate.swift */; };
 		77653E9F23A035A600B79DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77653E9E23A035A600B79DA5 /* Assets.xcassets */; };
 		77653EA223A035A600B79DA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77653EA023A035A600B79DA5 /* LaunchScreen.storyboard */; };
+		77BB722223AA9E9500F55D82 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 77BB722123AA9E9500F55D82 /* GoogleService-Info.plist */; };
 		AD0CCEEC5B88045F49E62C16 /* Pods_BestLessonApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E167A6AE05CA9E28732C2E /* Pods_BestLessonApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		77653E9E23A035A600B79DA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77653EA123A035A600B79DA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77653EA323A035A600B79DA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77BB722123AA9E9500F55D82 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A4AC9F544D6E648AB39BF9B8 /* Pods-BestLessonApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestLessonApp.release.xcconfig"; path = "Target Support Files/Pods-BestLessonApp/Pods-BestLessonApp.release.xcconfig"; sourceTree = "<group>"; };
 		DAF1F88077484376E6A55B47 /* Pods-BestLessonApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BestLessonApp.debug.xcconfig"; path = "Target Support Files/Pods-BestLessonApp/Pods-BestLessonApp.debug.xcconfig"; sourceTree = "<group>"; };
 		E4E167A6AE05CA9E28732C2E /* Pods_BestLessonApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BestLessonApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,7 +62,6 @@
 				DAF1F88077484376E6A55B47 /* Pods-BestLessonApp.debug.xcconfig */,
 				A4AC9F544D6E648AB39BF9B8 /* Pods-BestLessonApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -93,6 +94,7 @@
 				77653E9E23A035A600B79DA5 /* Assets.xcassets */,
 				77653EA023A035A600B79DA5 /* LaunchScreen.storyboard */,
 				77653EA323A035A600B79DA5 /* Info.plist */,
+				77BB722123AA9E9500F55D82 /* GoogleService-Info.plist */,
 				775DB3CE23A7EFE5002DA07B /* Constants.swift */,
 			);
 			path = BestLessonApp;
@@ -195,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77653EA223A035A600B79DA5 /* LaunchScreen.storyboard in Resources */,
+				77BB722223AA9E9500F55D82 /* GoogleService-Info.plist in Resources */,
 				77653E9F23A035A600B79DA5 /* Assets.xcassets in Resources */,
 				775DB3C123A157E4002DA07B /* Main.storyboard in Resources */,
 			);

@@ -7,11 +7,36 @@
 //
 
 import UIKit
+import Firebase
+
+
 
 class RegisterViewController: UIViewController {
     @IBOutlet weak var registerEmailField: UITextField!
     
     @IBOutlet weak var registerPasswordField: UITextField!
+    
+    
+    @IBAction func registerPressed(_ sender: Any) {
+        if  let email = registerEmailField.text, let password = registerPasswordField.text  {
+            Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
+                if let e = error  {
+                    print(e.localizedDescription)
+                } else {
+                    //navigate  to chatViewController
+                    self.performSegue(withIdentifier: K.registerToOptionsIdentifier, sender: self)
+                }
+        }
+
+        
+          
+        }
+    }
+    
+    
+ 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

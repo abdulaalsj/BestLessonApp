@@ -7,5 +7,7 @@ target 'BestLessonApp' do
   # Pods for BestLessonApp
   
   pod 'CLTypingLabel' , '~> 0.4.0'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
 
 end
