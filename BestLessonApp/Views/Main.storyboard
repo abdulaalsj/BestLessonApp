@@ -247,7 +247,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" name="Lemon"/>
                         <viewLayoutGuide key="safeArea" id="IBz-qG-mAa"/>
                     </view>
                     <navigationItem key="navigationItem" id="Gmy-hb-JHW"/>
