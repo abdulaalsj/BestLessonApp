@@ -15,4 +15,8 @@ struct K {
     static let registerToOptionsIdentifier = "RegisterToOptions"
     
     static let logInToOptionsIdentifier = "logInToOptions"
+    
+    static let ok = "Ok"
+    
+    static let errorString = "Error"
 }
