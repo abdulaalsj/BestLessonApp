@@ -7,16 +7,39 @@
 //
 
 import UIKit
+import Firebase
 
 class LogInViewController: UIViewController {
     @IBOutlet weak var logInEmailField: UITextField!
     @IBOutlet weak var logInPasswordField: UITextField!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    
+    
+    @IBAction func logInPressed(_ sender: Any) {
         
+        if  let email = logInEmailField.text, let password = logInPasswordField.text {
+        
+        Auth.auth().signIn(withEmail: email, password: password) {  authResult, error in
+          if let e = error {
+                              
+          let alert = UIAlertController(title: K.errorString, message: e.localizedDescription, preferredStyle: UIAlertController.Style.alert)
+                              
+                              
+                               //  print(e.localizedDescription)
+                              
+                              
+                              alert.addAction(UIAlertAction(title: K.ok, style: UIAlertAction.Style.default, handler: nil))
+                              
+                              self.present(alert, animated: true, completion: nil)
+                              
+                              
+                             }
+             else {
+                //navigate  to chatViewController
+            self.performSegue(withIdentifier: K.logInToOptionsIdentifier, sender: self)
+            }
+    }
+    
        
     }
     
@@ -31,4 +54,5 @@ class LogInViewController: UIViewController {
     }
     */
 
+}
 }

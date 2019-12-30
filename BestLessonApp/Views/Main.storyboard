@@ -169,6 +169,9 @@
                                             <color key="titleColor" name="Color"/>
                                             <color key="titleShadowColor" name="Dark Red"/>
                                         </state>
+                                        <connections>
+                                            <action selector="logInPressed:" destination="iCv-d8-v1e" eventType="touchUpInside" id="0UB-IT-dBG"/>
+                                        </connections>
                                     </button>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" placeholder="Password" textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="YLy-BT-7yQ">
                                         <rect key="frame" x="67" y="43" width="179" height="34"/>
@@ -355,6 +358,6 @@
         </namedColor>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="bXM-Nw-bWh"/>
+        <segue reference="wCA-wl-3W8"/>
     </inferredMetricsTieBreakers>
 </document>
