@@ -225,17 +225,19 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="of7-e1-6KO">
                                 <rect key="frame" x="130" y="292" width="163" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="honeyButton"/>
+                                <state key="normal" title="Games" image="honeyButton"/>
                                 <connections>
-                                    <segue destination="ILN-Y3-C5V" kind="show" id="rSY-Sy-xcd"/>
+                                    <action selector="GamesPressed:" destination="vyA-Ng-PPJ" eventType="touchUpInside" id="hyN-AF-bGB"/>
+                                    <segue destination="ILN-Y3-C5V" kind="show" identifier="optionsToGame" id="rSY-Sy-xcd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nlv-FT-Ny3">
                                 <rect key="frame" x="126" y="463" width="163" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="honeyButton"/>
+                                <state key="normal" title="Lessons" image="honeyButton"/>
                                 <connections>
-                                    <segue destination="R0m-4n-2EV" kind="show" id="Qxc-8G-Sc4"/>
+                                    <action selector="LessonsPressed:" destination="vyA-Ng-PPJ" eventType="touchUpInside" id="F1N-Jv-d7q"/>
+                                    <segue destination="R0m-4n-2EV" kind="show" identifier="optionsToLesson" id="Qxc-8G-Sc4"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Lessons" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AlA-uv-KjQ">
@@ -256,7 +258,13 @@
                         <color key="backgroundColor" name="Lemon"/>
                         <viewLayoutGuide key="safeArea" id="IBz-qG-mAa"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Gmy-hb-JHW"/>
+                    <navigationItem key="navigationItem" id="Gmy-hb-JHW">
+                        <barButtonItem key="rightBarButtonItem" title="LogOut" id="Tuv-vM-wRn">
+                            <connections>
+                                <action selector="logOutPressed:" destination="vyA-Ng-PPJ" id="3mK-9I-Ua0"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cEl-hy-jA9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

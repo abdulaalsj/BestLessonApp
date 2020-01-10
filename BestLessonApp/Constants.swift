@@ -19,4 +19,8 @@ struct K {
     static let ok = "Ok"
     
     static let errorString = "Error"
+    
+    static let optionsToLesson = "optionsToLesson"
+    
+    static let optionsToGame = "optionsToGame"
 }
